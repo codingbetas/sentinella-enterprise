@@ -1,7 +1,22 @@
 # Sentinella Enterprise AIOps
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688)
+![Next.js](https://img.shields.io/badge/Next.js-16-black)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 A real-time infrastructure monitoring platform that combines
 machine learning anomaly detection with LLM-powered SRE diagnostics.
+
+![Sentinella Dashboard](./docs/screenshot-dashboard.png)
+
+## What It Does
+
+A real-time infrastructure monitoring platform that combines
+machine learning anomaly detection with LLM-powered SRE diagnostics.
+
+![Sentinella Dashboard](./docs/screenshot-dashboard.png)
 
 ## What It Does
 
