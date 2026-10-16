@@ -13,13 +13,6 @@ machine learning anomaly detection with LLM-powered SRE diagnostics.
 
 ## What It Does
 
-A real-time infrastructure monitoring platform that combines
-machine learning anomaly detection with LLM-powered SRE diagnostics.
-
-![Sentinella Dashboard](./docs/screenshot-dashboard.png)
-
-## What It Does
-
 Sentinella continuously collects system telemetry (CPU, memory, top
 processes) from monitored nodes, streams it to a Next.js dashboard
 over WebSockets, and runs it through a dual-stage AI pipeline:
