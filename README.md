@@ -1,5 +1,6 @@
 # Sentinella Enterprise AIOps
 
+![Python CI](https://github.com/codingbetas/sentinella-enterprise/actions/workflows/ci.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.111-009688)
 ![Next.js](https://img.shields.io/badge/Next.js-16-black)
