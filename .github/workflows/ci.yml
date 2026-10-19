@@ -25,10 +25,14 @@ jobs:
         pip install pytest httpx pytest-env
         
     - name: Test with pytest
+      timeout-minutes: 2
       env:
-        SECRET_KEY: ${{ secrets.SECRET_KEY }}
-        DATABASE_URL: ${{ secrets.DATABASE_URL }}
-        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        SECRET_KEY: "test_secret_key_123"
+        POSTGRES_USER: "test"
+        POSTGRES_PASSWORD: "test"
+        POSTGRES_DB: "test"
+        GEMINI_API_KEY: "test"
+        DATABASE_URL: "postgresql+asyncpg://test:test@localhost:5432/testdb"
       run: |
         cd backend
         pytest
